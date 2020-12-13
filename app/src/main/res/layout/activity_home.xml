@@ -5,15 +5,43 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
     tools:context =".HomeActivity"
     >
 
     <TextView
-        android:textSize="28sp"
-        android:text="Welcome to Home page"
+        android:textSize="35sp"
+        android:text="Table List"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textColor="@android:color/black"
     />
+
+    <LinearLayout
+
+        android:id="@+id/layout_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+
+            android:id="@+id/button_add"
+            android:background="@drawable/round_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD List"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@android:color/black"
+            android:textAllCaps="false"
+            android:drawableRight="@drawable/ic_add"
+            >
+
+        </Button>
+    </LinearLayout>
 
 </LinearLayout>

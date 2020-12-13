@@ -32,7 +32,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         getWritableDatabase().insert( "user","", contentValues );
     }
 
-    public boolean isLoginValue(String username, String password){
+    public boolean isLoginValid(String username, String password){
         String sql = "Select count * from user where username '" +username+"' and password '" +password+"' ";
         SQLiteStatement statement = getReadableDatabase().compileStatement(sql);
         long l = statement.simpleQueryForLong();
