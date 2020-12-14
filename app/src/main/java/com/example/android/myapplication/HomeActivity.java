@@ -1,10 +1,10 @@
 package com.example.android.myapplication;
 
-import android.support.v7.app.AppCompatActivity;
+// import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.AppCompatSpinner;
+// import android.support.v7.widget.AppCompatSpinner;
 import android.view.View;
-import android.widget.ArrayAdapter;
+// import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -39,7 +39,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
 
-    public void ocClick(View v) {
+    public void onClick(View v) {
         addView();
     }
 
